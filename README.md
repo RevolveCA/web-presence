@@ -61,3 +61,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Thanks to the team for endless work
 * Motivating concepts and aspirations
 * Everyone who supported the project
+* Feather.js for the icons
