@@ -119,6 +119,19 @@
         /* font-size: 80%; */
         font-size: 24px;
     }
+
+    .page-two .cards .card {
+        min-height: 500px;
+        border-radius: 30px;
+    }
+
+    .page-four .card {
+        border-radius: 30px;
+    }
+
+    .footer .ftCont .col {
+        width: 33%;
+    }
 }
 
 @media (min-width:60em) {

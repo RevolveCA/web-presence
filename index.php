@@ -1,4 +1,3 @@
-<!doctype html>
 <html class="no-js" lang="en" dir="ltr">
 
 <head>
@@ -317,28 +316,22 @@
             <div class="ftCont">
                 <div class="col">
                     <h1 class="heading">About</h1>
-                    <a href="">
-                        <span class="icon-text presence">
-                            <i data-feather="external-link"></i>
-                            <h4 class="sub-heading">Other Work</h4>
-                        </span>
-                    </a>
-                    <a href="">
-                        <span class="icon-text presence">
-                            <i data-feather="calendar"></i>
-                            <h4 class="sub-heading">Scheduele</h4>
-                        </span>
-                    </a>
+                    <span class="icon-text presence">
+                        <i data-feather="external-link"></i>
+                        <h4 class="sub-heading">Other Work</h4>
+                    </span>
+                    <span class="icon-text presence">
+                        <i data-feather="calendar"></i>
+                        <h4 class="sub-heading">Scheduele</h4>
+                    </span>
                 </div>
                 <div class="col">
                     <h1 class="heading">Contact</h1>
                     <!-- Github -->
-                    <a href="">
-                        <span class="icon-text presence">
-                            <i data-feather="shield"></i>
-                            <h4 class="sub-heading">Policies</h4>
-                        </span>
-                    </a>
+                    <span class="icon-text presence">
+                        <i data-feather="shield"></i>
+                        <h4 class="sub-heading">Policies</h4>
+                    </span>
                 </div>
                 <div class="col">
                     <h1 class="heading">Social</h1>
@@ -349,20 +342,16 @@
                     <!-- <span class="instagram">Instagram</span><br> -->
 
                     <!-- Twitter -->
-                    <a href="">
-                        <span class="icon-text presence">
-                            <i data-feather="twitter"></i>
-                            <h4 class="sub-heading">Revolve</h4>
-                        </span>
-                    </a>
+                    <span class="icon-text presence">
+                        <i data-feather="twitter"></i>
+                        <h4 class="sub-heading">Revolve</h4>
+                    </span>
 
                     <!-- Github -->
-                    <a href="">
-                        <span class="icon-text presence">
-                            <i data-feather="github"></i>
-                            <h4 class="sub-heading">Revolve Project</h4>
-                        </span>
-                    </a>
+                    <span class="icon-text presence">
+                        <i data-feather="github"></i>
+                        <h4 class="sub-heading">Revolve Project</h4>
+                    </span>
 
                     <!-- Youtube -->
                     <!-- <i data-feather="youtube" class="youtube"></i> -->
