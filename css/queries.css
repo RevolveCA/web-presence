@@ -1,0 +1,205 @@
+@media (min-width:0em) {
+
+    /* Red */
+    /* smartphones, iPhone, portrait 480x320 phones */
+    /* * {
+        background-color: rgba(150, 0, 0, 0.1);
+    } */
+    .page-one {
+        height: 100vh;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .blob-one {
+        display: none;
+    }
+
+    .page-four .card {
+        width: 90%;
+    }
+
+    .synposis .content {
+        width: 100%;
+    }
+
+    .creator-image {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width:30em) {
+
+    /* Orange */
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    /* * {
+        background-color: rgba(150, 50, 0, 0.1);
+    } */
+    .page-four .card {
+        width: 70%;
+    }
+
+    .blob-blue2 {
+        right: -35vw;
+    }
+
+    .synposis .content {
+        width: 80%;
+    }
+
+    .creator-image {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (min-width:40em) and (orientation:portrait) {
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    /* * {
+        background-color: rgba(150, 150, 0, 0.1);
+    } */
+    .page-one {
+        height: 65vh;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .descript {
+        font-size: 150%;
+    }
+}
+
+@media (min-width:40em) {
+    .page-two .cards .card {
+        padding: 20px 40px 30px 40px;
+        grid-template-rows: 15% 15% 20% 10% 10% 10% 10% 10%;
+    }
+
+    .blob-blue2 {
+        right: -15vw;
+    }
+
+    .page-two .items .cell h2 {
+        /* font-weight: 300; */
+        font-size: 41px;
+    }
+
+    .page-two .items .cell h4 {
+        /* font-weight: 300; */
+        font-size: 36px;
+    }
+
+    .page-two .items .cell p,
+    .synposis .content p,
+    .page-three .icon-text.goals .heading {
+        font-size: 30px;
+    }
+
+    .page-three .content ul li {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .page-two .items .cell p,
+    .synposis .content p {
+        font-weight: 300;
+    }
+
+    .page.page-three .synposis .creator-info .title.heading {
+        font-size: 47px;
+    }
+
+    .page.page-three .synposis .creator-profile .creator-info .sub-heading {
+        /* font-size: 80%; */
+        font-size: 24px;
+    }
+}
+
+@media (min-width:60em) {
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    /* * {
+        background-color: rgba(0, 150, 0, 0.1);
+    } */
+    .page-four .card {
+        width: 60%;
+    }
+
+    .synposis .content {
+        width: 70%;
+    }
+
+    .creator-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width:64em) and (orientation:landscape) {
+
+    /* big landscape tablets, laptops, and desktops */
+    /* * {
+        background-color: rgba(0, 150, 150, 0.1);
+    } */
+    .page-one {
+        height: 65vh;
+    }
+
+    .banner {
+        width: 100%;
+    }
+}
+
+@media (min-width:80em) {
+
+    /* hi-res laptops and desktops */
+    /* h1 {
+    color: purple;
+  } */
+    /* * {
+        background-color: rgba(0, 0, 150, 0.1);
+    } */
+    .banner {
+        width: 60%;
+    }
+
+    .page-two .cards .card {
+        width: 29%;
+    }
+
+    .blob-one {
+        display: block;
+    }
+
+    .blob-blue2 {
+        right: 0;
+    }
+
+    .page-one .heading {
+        font-size: 6em;
+    }
+
+    .page-two {
+        min-height: 100vh;
+        /* height: 100vh; */
+        overflow: hidden;
+    }
+
+    .page-two .cards {
+        height: 600px;
+    }
+
+    .page-four .card {
+        width: 50%;
+    }
+
+    .synposis .content {
+        width: 60%;
+    }
+}
