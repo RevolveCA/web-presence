@@ -61,7 +61,7 @@ feather.replace();
 
 // N A V   C O N T R O L L E R
 
-$('.menu .feather-menu, .menubar li, .nav .menubar').click(function(e) {
+$('.menu .feather-menu, .nav .menubar').click(function(e) {
   // e.preventDefault();
   console.log(`nav click ${e}`);
   // get the menu
@@ -71,11 +71,7 @@ $('.menu .feather-menu, .menubar li, .nav .menubar').click(function(e) {
   if (menu.classList.contains("opened")) {
     $('.menubar')
       .removeClass("opened")
-      .animate({
-        opacity: 0
-      }, 500)
-      .slideUp(500);
-
+      .fadeOut(1000);
 
     $(".menubar")
       .removeClass("opened");
@@ -84,10 +80,7 @@ $('.menu .feather-menu, .menubar li, .nav .menubar').click(function(e) {
     $('.menubar')
       .css('height', '100vh')
       .addClass("opened")
-      .animate({
-        opacity: 1
-      }, 500)
-      .slideDown(500);
+      .fadeIn(1000);
 
 
     $(".menubar")
@@ -96,3 +89,23 @@ $('.menu .feather-menu, .menubar li, .nav .menubar').click(function(e) {
   }
 
 });
+//
+// $('.menubar li').click(function(e) {
+//   // e.preventDefault();
+//   console.log(`nav list item click ${e}`);
+//   // get the menu
+//   let menu = document.querySelector('.nav .menubar');
+//
+//   // if menu is opened
+//   $('.menubar')
+//     .removeClass("opened")
+//     .animate({
+//       opacity: 0
+//     }, 500)
+//     .slideUp(500);
+//
+//
+//   $(".menubar")
+//     .removeClass("opened");
+//
+// });
